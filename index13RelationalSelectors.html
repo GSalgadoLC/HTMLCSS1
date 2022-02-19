@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/Style13RelationSelectors.css" />
+  </head>
+  <body>
+    <section id="products">
+      <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+
+    <section id="inventory">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+        expedita.
+      </p>
+      <article>
+        <p>
+          only the first is highlighted because in stylesheet there is a greater
+          sign following id.
+        </p>
+      </article>
+    </section>
+
+    <section id="Transport">
+      <p>this is main child using ></p>
+    </section>
+    <p>This is a real sibling. Using +</p>
+
+    <section id="consumed">
+      <p>This is p paragraph for consumed id.</p>
+    </section>
+    <p>This is after id of consumed using tilda</p>
+
+    <h3>
+      relational selectors allow us to make cleaner markup but can be fragile if
+      sections/paragraphs are moved around. They are not as fast as basic
+      selectors. Due to how browsers read and execute selectors. Reads the
+      entire time to query paragraph elements but kinda negligible. Perfectly
+      fine if fixed location
+    </h3>
+  </body>
+</html>
