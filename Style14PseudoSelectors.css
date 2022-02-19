@@ -1,0 +1,30 @@
+body {
+  margin: 10px;
+}
+
+article :first-of-type {
+  font-style: italic;
+  font-size: 140%;
+}
+
+figure P:first-of-type {
+  background-color: blue;
+}
+
+figure P:last-of-type {
+  background-color: pink;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: fuchsia;
+}

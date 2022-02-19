@@ -1,0 +1,19 @@
+body {
+  margin: 10px;
+}
+
+#products {
+  background-color: purple;
+}
+
+.product {
+  background-color: aqua;
+}
+
+a[target="_blank"] {
+  background-color: red;
+}
+
+a[href*="Google"] {
+  color: orange;
+}

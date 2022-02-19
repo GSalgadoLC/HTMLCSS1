@@ -1,0 +1,23 @@
+body {
+  margin: 10px;
+}
+
+#products p {
+  color: orange;
+}
+
+#inventory > p {
+  color: cyan;
+}
+
+#Transport > p {
+  color: blueviolet;
+}
+
+#Transport + p {
+  color: blue;
+}
+
+#consumed ~ p {
+  color: deeppink;
+}
