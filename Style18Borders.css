@@ -1,0 +1,12 @@
+body {
+  margin: 10px;
+}
+
+.box {
+  width: 600px;
+  height: 200px;
+  background: lightgray;
+  border: 10px dashed red;
+  border-width: 10px 20px; /* Comment */
+  border-radius: 50px; /* 100% is a full circle go to css tricks for more shapes like stars*/
+}
