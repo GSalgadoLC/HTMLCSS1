@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector Specificity</title>
+    <link rel="stylesheet" href="/CSS/normalize.css" />
+    <link rel="stylesheet" href="/CSS/style16SelectorSpecificity.css" />
+  </head>
+  <body>
+    <h1>Selector Specificity</h1>
+    <article>
+      <h1 id="products" class="highlight">Article</h1>
+    </article>
+    <p>
+      Selector SpecificityTriangle::::::: Id Selector #Products, class and
+      attribute selectors .products, element selectors
+    </p>
+    <p>!important overrides specificity but is considered bad practice</p>
+    <p>
+      You can combine specificity to override h1#prodicts .highlight#products
+    </p>
+  </body>
+
+  <p class="dodger">
+    Lorem ipsum dolor sit amet <strong>consectetur</strong>, adipisicing elit.
+    Maxime, nisi!
+  </p>
+</html>
